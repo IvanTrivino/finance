@@ -12,12 +12,26 @@
 		23C3E68821CD66BD00DF876C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C3E68621CD66BD00DF876C /* Main.storyboard */; };
 		23C3E68A21CD66BF00DF876C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23C3E68921CD66BF00DF876C /* Assets.xcassets */; };
 		23C3E68D21CD66BF00DF876C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C3E68B21CD66BF00DF876C /* LaunchScreen.storyboard */; };
-		23C3E69621CD6FED00DF876C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C3E68421CD66BD00DF876C /* ViewController.swift */; };
-		23C3E69721CD6FED00DF876C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C3E68221CD66BD00DF876C /* AppDelegate.swift */; };
-		23C3E69A21CD6FED00DF876C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C3E68B21CD66BF00DF876C /* LaunchScreen.storyboard */; };
-		23C3E69B21CD6FED00DF876C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23C3E68921CD66BF00DF876C /* Assets.xcassets */; };
-		23C3E69C21CD6FED00DF876C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C3E68621CD66BD00DF876C /* Main.storyboard */; };
 		23C3E6A421CD705100DF876C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C3E6A321CD705100DF876C /* MapKit.framework */; };
+		23C3E6C621CDA7BC00DF876C /* Transactions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C3E6C521CDA7BC00DF876C /* Transactions.storyboard */; };
+		23C3E6C821CDA7FD00DF876C /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C3E6C721CDA7FD00DF876C /* Budget.storyboard */; };
+		23C3E6CA21CDA83100DF876C /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C3E6C921CDA83100DF876C /* Add.storyboard */; };
+		23C3E6CC21CDA86B00DF876C /* Statistics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C3E6CB21CDA86B00DF876C /* Statistics.storyboard */; };
+		23C3E6CE21CDA8B600DF876C /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C3E6CD21CDA8B600DF876C /* Profile.storyboard */; };
+		23C3E6D121CDAA0400DF876C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C3E68421CD66BD00DF876C /* ViewController.swift */; };
+		23C3E6D221CDAA0400DF876C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C3E68221CD66BD00DF876C /* AppDelegate.swift */; };
+		23C3E6D421CDAA0400DF876C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C3E6A321CD705100DF876C /* MapKit.framework */; };
+		23C3E6D621CDAA0400DF876C /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C3E6C721CDA7FD00DF876C /* Budget.storyboard */; };
+		23C3E6D721CDAA0400DF876C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C3E68B21CD66BF00DF876C /* LaunchScreen.storyboard */; };
+		23C3E6D821CDAA0400DF876C /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C3E6CD21CDA8B600DF876C /* Profile.storyboard */; };
+		23C3E6D921CDAA0400DF876C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23C3E68921CD66BF00DF876C /* Assets.xcassets */; };
+		23C3E6DA21CDAA0400DF876C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C3E68621CD66BD00DF876C /* Main.storyboard */; };
+		23C3E6DB21CDAA0400DF876C /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C3E6C921CDA83100DF876C /* Add.storyboard */; };
+		23C3E6DC21CDAA0400DF876C /* Statistics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C3E6CB21CDA86B00DF876C /* Statistics.storyboard */; };
+		23C3E6DD21CDAA0400DF876C /* Transactions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C3E6C521CDA7BC00DF876C /* Transactions.storyboard */; };
+		23C3E6E421CDAAD400DF876C /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C3E6E321CDAAD400DF876C /* SignIn.storyboard */; };
+		23C3E6E721CDC27B00DF876C /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23C3E6E621CDC27B00DF876C /* Colors.xcassets */; };
+		23C3E6EA21CDCAAB00DF876C /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C3E6E921CDCAAB00DF876C /* Shadow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,9 +42,17 @@
 		23C3E68921CD66BF00DF876C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23C3E68C21CD66BF00DF876C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23C3E68E21CD66BF00DF876C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		23C3E6A021CD6FED00DF876C /* Production.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Production.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		23C3E6A121CD6FED00DF876C /* Production.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Production.plist; path = "/Users/ivancamilotrivinolopez/Documents/Cursos/Platzi/App iOS/Finanzas/Production.plist"; sourceTree = "<absolute>"; };
 		23C3E6A321CD705100DF876C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		23C3E6C521CDA7BC00DF876C /* Transactions.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Transactions.storyboard; sourceTree = "<group>"; };
+		23C3E6C721CDA7FD00DF876C /* Budget.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Budget.storyboard; sourceTree = "<group>"; };
+		23C3E6C921CDA83100DF876C /* Add.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Add.storyboard; sourceTree = "<group>"; };
+		23C3E6CB21CDA86B00DF876C /* Statistics.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Statistics.storyboard; sourceTree = "<group>"; };
+		23C3E6CD21CDA8B600DF876C /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		23C3E6E121CDAA0400DF876C /* Production.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Production.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23C3E6E221CDAA0500DF876C /* Finanzas copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Finanzas copy-Info.plist"; path = "/Users/ivancamilotrivinolopez/Documents/Cursos/Platzi/App iOS/Finanzas/Finanzas copy-Info.plist"; sourceTree = "<absolute>"; };
+		23C3E6E321CDAAD400DF876C /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
+		23C3E6E621CDC27B00DF876C /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		23C3E6E921CDCAAB00DF876C /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,10 +64,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		23C3E69821CD6FED00DF876C /* Frameworks */ = {
+		23C3E6D321CDAA0400DF876C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23C3E6D421CDAA0400DF876C /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +81,7 @@
 				23C3E68121CD66BD00DF876C /* Finanzas */,
 				23C3E68021CD66BD00DF876C /* Products */,
 				23C3E6A221CD705100DF876C /* Frameworks */,
+				23C3E6E221CDAA0500DF876C /* Finanzas copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,7 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				23C3E67F21CD66BD00DF876C /* Finanzas.app */,
-				23C3E6A021CD6FED00DF876C /* Production.app */,
+				23C3E6E121CDAA0400DF876C /* Production.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				23C3E6A621CD728500DF876C /* Base */,
+				23C3E6E821CDCA6200DF876C /* Extensions */,
 				23C3E6A721CD731B00DF876C /* Resources */,
 				23C3E6A521CD727000DF876C /* Application */,
 			);
@@ -101,7 +126,6 @@
 			isa = PBXGroup;
 			children = (
 				23C3E68E21CD66BF00DF876C /* Info.plist */,
-				23C3E6A121CD6FED00DF876C /* Production.plist */,
 				23C3E68221CD66BD00DF876C /* AppDelegate.swift */,
 				23C3E68B21CD66BF00DF876C /* LaunchScreen.storyboard */,
 			);
@@ -111,6 +135,7 @@
 		23C3E6A721CD731B00DF876C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				23C3E6E521CDC25500DF876C /* Colors */,
 				23C3E6A821CD732900DF876C /* Images */,
 			);
 			path = Resources;
@@ -137,8 +162,11 @@
 			isa = PBXGroup;
 			children = (
 				23C3E6AF21CD739800DF876C /* Main */,
-				23C3E6AE21CD738C00DF876C /* Profile */,
-				23C3E6AD21CD738400DF876C /* Transactions */,
+				23C3E6C021CDA6D700DF876C /* Transactions */,
+				23C3E6C421CDA71800DF876C /* Budget */,
+				23C3E6C121CDA6F400DF876C /* Add */,
+				23C3E6C221CDA6FB00DF876C /* Statistics */,
+				23C3E6C321CDA70400DF876C /* Profile */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -153,22 +181,9 @@
 		23C3E6AC21CD736F00DF876C /* Sign in */ = {
 			isa = PBXGroup;
 			children = (
+				23C3E6E321CDAAD400DF876C /* SignIn.storyboard */,
 			);
 			path = "Sign in";
-			sourceTree = "<group>";
-		};
-		23C3E6AD21CD738400DF876C /* Transactions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Transactions;
-			sourceTree = "<group>";
-		};
-		23C3E6AE21CD738C00DF876C /* Profile */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Profile;
 			sourceTree = "<group>";
 		};
 		23C3E6AF21CD739800DF876C /* Main */ = {
@@ -178,6 +193,62 @@
 				23C3E68621CD66BD00DF876C /* Main.storyboard */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		23C3E6C021CDA6D700DF876C /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				23C3E6C521CDA7BC00DF876C /* Transactions.storyboard */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		23C3E6C121CDA6F400DF876C /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				23C3E6C921CDA83100DF876C /* Add.storyboard */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		23C3E6C221CDA6FB00DF876C /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				23C3E6CB21CDA86B00DF876C /* Statistics.storyboard */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		23C3E6C321CDA70400DF876C /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				23C3E6CD21CDA8B600DF876C /* Profile.storyboard */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		23C3E6C421CDA71800DF876C /* Budget */ = {
+			isa = PBXGroup;
+			children = (
+				23C3E6C721CDA7FD00DF876C /* Budget.storyboard */,
+			);
+			path = Budget;
+			sourceTree = "<group>";
+		};
+		23C3E6E521CDC25500DF876C /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				23C3E6E621CDC27B00DF876C /* Colors.xcassets */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		23C3E6E821CDCA6200DF876C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				23C3E6E921CDCAAB00DF876C /* Shadow.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,13 +271,13 @@
 			productReference = 23C3E67F21CD66BD00DF876C /* Finanzas.app */;
 			productType = "com.apple.product-type.application";
 		};
-		23C3E69421CD6FED00DF876C /* Production */ = {
+		23C3E6CF21CDAA0400DF876C /* Production */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 23C3E69D21CD6FED00DF876C /* Build configuration list for PBXNativeTarget "Production" */;
+			buildConfigurationList = 23C3E6DE21CDAA0400DF876C /* Build configuration list for PBXNativeTarget "Production" */;
 			buildPhases = (
-				23C3E69521CD6FED00DF876C /* Sources */,
-				23C3E69821CD6FED00DF876C /* Frameworks */,
-				23C3E69921CD6FED00DF876C /* Resources */,
+				23C3E6D021CDAA0400DF876C /* Sources */,
+				23C3E6D321CDAA0400DF876C /* Frameworks */,
+				23C3E6D521CDAA0400DF876C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -214,7 +285,7 @@
 			);
 			name = Production;
 			productName = Finanzas;
-			productReference = 23C3E6A021CD6FED00DF876C /* Production.app */;
+			productReference = 23C3E6E121CDAA0400DF876C /* Production.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -251,7 +322,7 @@
 			projectRoot = "";
 			targets = (
 				23C3E67E21CD66BD00DF876C /* Finanzas */,
-				23C3E69421CD6FED00DF876C /* Production */,
+				23C3E6CF21CDAA0400DF876C /* Production */,
 			);
 		};
 /* End PBXProject section */
@@ -261,19 +332,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23C3E6C821CDA7FD00DF876C /* Budget.storyboard in Resources */,
 				23C3E68D21CD66BF00DF876C /* LaunchScreen.storyboard in Resources */,
+				23C3E6CE21CDA8B600DF876C /* Profile.storyboard in Resources */,
 				23C3E68A21CD66BF00DF876C /* Assets.xcassets in Resources */,
+				23C3E6E421CDAAD400DF876C /* SignIn.storyboard in Resources */,
+				23C3E6E721CDC27B00DF876C /* Colors.xcassets in Resources */,
 				23C3E68821CD66BD00DF876C /* Main.storyboard in Resources */,
+				23C3E6CA21CDA83100DF876C /* Add.storyboard in Resources */,
+				23C3E6CC21CDA86B00DF876C /* Statistics.storyboard in Resources */,
+				23C3E6C621CDA7BC00DF876C /* Transactions.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		23C3E69921CD6FED00DF876C /* Resources */ = {
+		23C3E6D521CDAA0400DF876C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23C3E69A21CD6FED00DF876C /* LaunchScreen.storyboard in Resources */,
-				23C3E69B21CD6FED00DF876C /* Assets.xcassets in Resources */,
-				23C3E69C21CD6FED00DF876C /* Main.storyboard in Resources */,
+				23C3E6D621CDAA0400DF876C /* Budget.storyboard in Resources */,
+				23C3E6D721CDAA0400DF876C /* LaunchScreen.storyboard in Resources */,
+				23C3E6D821CDAA0400DF876C /* Profile.storyboard in Resources */,
+				23C3E6D921CDAA0400DF876C /* Assets.xcassets in Resources */,
+				23C3E6DA21CDAA0400DF876C /* Main.storyboard in Resources */,
+				23C3E6DB21CDAA0400DF876C /* Add.storyboard in Resources */,
+				23C3E6DC21CDAA0400DF876C /* Statistics.storyboard in Resources */,
+				23C3E6DD21CDAA0400DF876C /* Transactions.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,17 +367,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23C3E6EA21CDCAAB00DF876C /* Shadow.swift in Sources */,
 				23C3E68521CD66BD00DF876C /* ViewController.swift in Sources */,
 				23C3E68321CD66BD00DF876C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		23C3E69521CD6FED00DF876C /* Sources */ = {
+		23C3E6D021CDAA0400DF876C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23C3E69621CD6FED00DF876C /* ViewController.swift in Sources */,
-				23C3E69721CD6FED00DF876C /* AppDelegate.swift in Sources */,
+				23C3E6D121CDAA0400DF876C /* ViewController.swift in Sources */,
+				23C3E6D221CDAA0400DF876C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,13 +558,13 @@
 			};
 			name = Release;
 		};
-		23C3E69E21CD6FED00DF876C /* Debug */ = {
+		23C3E6DF21CDAA0400DF876C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K7JAUJNGUL;
-				INFOPLIST_FILE = "$(SRCROOT)/Production.plist";
+				INFOPLIST_FILE = "Finanzas copy-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -493,13 +577,13 @@
 			};
 			name = Debug;
 		};
-		23C3E69F21CD6FED00DF876C /* Release */ = {
+		23C3E6E021CDAA0400DF876C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K7JAUJNGUL;
-				INFOPLIST_FILE = "$(SRCROOT)/Production.plist";
+				INFOPLIST_FILE = "Finanzas copy-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -533,11 +617,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		23C3E69D21CD6FED00DF876C /* Build configuration list for PBXNativeTarget "Production" */ = {
+		23C3E6DE21CDAA0400DF876C /* Build configuration list for PBXNativeTarget "Production" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				23C3E69E21CD6FED00DF876C /* Debug */,
-				23C3E69F21CD6FED00DF876C /* Release */,
+				23C3E6DF21CDAA0400DF876C /* Debug */,
+				23C3E6E021CDAA0400DF876C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
